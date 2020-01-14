@@ -1,0 +1,15 @@
+getSecNumStart.m
+读到startNumber
+
+判断element/section
+取出最大未定义的sectionNumber
+
+
+
+MSTlog2MGT.m
+selfweight判断
+*SELFWEIGHT    ; Self Weight
+; X, Y, Z, GROUP
+0, 0, -1.1,
+
+原MGT分成几块，分别组装成新MGT（原块1/section/原2/selfweight/原3）
