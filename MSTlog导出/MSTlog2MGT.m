@@ -26,7 +26,7 @@ MGTstr = checkSelfweight(MGTstr);
 [NumMatrix, SecMatrix] = getSecMSTlog(LOGstr, NumStart);
 
 %% write the BOX section data into MGTstr
-MGTstr = writeSecData(MGTstr, SecLine_end, NumMatrix, SecMatrix);
+MGTstr = addSecData(MGTstr, SecLine_end, NumMatrix, SecMatrix);
 
 %% write MGTstr into a new mgt file
 prefix = ''; % prefix of the new mgt file
