@@ -9,7 +9,7 @@ function newMGTstr = checkSelfweight(MGTstr)
 % ; X, Y, Z, GROUP
 % 0, 0, -1.1,
 i = 1;
-while~strcmp( str1Temp(i, MGTstr), '*SELFWEIGHT,' ) %
+while ~strcmp( str1Temp(i, MGTstr), '*SELFWEIGHT,' ) %
     if i == length(MGTstr) % no '*SELFWEIGHT,' in MGTstr
         break
     end

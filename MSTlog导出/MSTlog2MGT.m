@@ -31,4 +31,4 @@ MGTstr = addSecData(MGTstr, SecLine_end, NumMatrix, SecMatrix);
 %% write MGTstr into a new mgt file
 prefix = ''; % prefix of the new mgt file
 suffix = 'x'; % suffix of the new mgt file
-writeMGT(MGTstr, MGTfilename, prefix, suffix);
+writeFILE(MGTstr, MGTfilename, prefix, suffix);
